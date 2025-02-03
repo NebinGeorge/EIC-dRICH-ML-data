@@ -1,3 +1,4 @@
-## Test data for Pid in EIC-dRICH using ML
+## Hepmc files and data for Pid in EIC-dRICH using ML
+This repository contains hepmc files and and data files generated for employing ML to perform PID in EIC-dRICH. The data files in csv format can be found in folder csv_files and it contains data files of 3 particled pion 211, kaon 321 and proton 2212 with momentum ranging from 2-50 GeV/c, pseudorapidity 1.5-2.5, and polar angle 0-360, randomised within the range. Informations such as particle momentum, cell ID(encoded) and PDG are available in the csv files. The hepmc files used for generating this data are found in folder hepmc.
 
-The file Test_data_for_ML.csv contain data for Kaon at 5 GeV/c, pseudorapidity 2 and azimuthal angle at 225 degree.
+All the cellIDs are encoded, cellID decoding is yet to be done.  
